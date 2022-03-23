@@ -1,0 +1,12 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /sb-web
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springdb?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: zsh.zsh.0314
+
